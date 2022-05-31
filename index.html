@@ -1,41 +1,130 @@
 <!DOCTYPE html>
 <html lang = "en">
 
-<head>
-<meta charset = "utf-8">
-<title> Angela's Webpage </title>
-</head>
+    <head>  
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title> Angela Rubalcava </title>
+    </head>
 
-<body>
+    <body>
+        <div class="header">
+            <span class = "header-title">
+                Angela Rubalcava
+            </span>
+        </div>
+       
+        <div class = "main">
+            <div class = "section">
+                
+                <div class = "section-title">
+                    About Me
+                </div>
 
-<h1> Angela Rubalcava</h1>
+            </div>
+            
+            <div class = "section-body">
+           <br> My name is Angela Rubalcava and I am a rising 4th year Computer
+            Science student at the University of San Francisco. I am 
+            set to graduate in Spring 2023 and hope to find a role as 
+            a Software Engineer. </br>
 
-<h3> Who I Am </h3>
-<ul>
-    <li><a href= "aboutme.html"> About Me </a></li>
-    <li><a href = "https://www.linkedin.com/in/angela-rubalcava-9ab310217/"> LinkedIn</a></li>
-    <li><a href = "https://github.com/amrubal"> Github</a></li>
-    <li><a href = "https://docs.google.com/document/d/1KgPctXm_4G5pXS7UzwpE2tOZPCApYRVUqX310GkGU3A/edit?usp=sharing"> Resume</a></li>
+            <br>The goal of this webpage is to improve my HTML and CSS skills 
+            as well as to showcase some of my work.</br>
 
-</ul>
+           <br> My interests outside of programming are running, soccer, and 
+            spending time with my dog! I love to try new food and explore the 
+            outdoors.</br>
 
-<h3> Websites I Enjoy </h3>
-<ul>
-    <li><a href = "https://www.reddit.com/r/soccer/"> The Impractical World Soccer News Site </a></li>
-    <li><a href = "https://letterboxd.com/lists/popular/"> To Find Movie Recommendations</a></li>
-    <li><a href = "https://corgis-edu.github.io/corgis/csv/"> A Bunch of CSV Datasets</a></li>
+            <br>Below is some of my contact information and Github profile. </br>
+
+            <br>
+            <a href = "https://www.linkedin.com/in/angela-rubalcava-9ab310217/"> <img src = "images/linkedIn.png" alt = "linkedIn" style = "width:24px;height:24px;"></a>
+            <a href = "https://github.com/amrubal?tab=repositories"> <img src = "images/github.png" alt = "github" style = "width:24px;height:24px;"></a>
+            <a href = "https://mail.google.com/mail/?view=cm&fs=1&to=amrubalcava2@dons.usfca.edu"> <img src = "images/gmail.png" alt = "gmail" style = "width:24px;height:24px;"></a>
+            <button href = "https://docs.google.com/document/d/1KgPctXm_4G5pXS7UzwpE2tOZPCApYRVUqX310GkGU3A/edit?usp=sharing" target="_blank">Resume</button>
+
+            </br>
+            
+           
+
+           
+            <br>Feel free to contact me to chat about programming, soccer, and/or 
+            anything else. </br>
+            
+            <br>Thanks for visiting my personal webpage! </br>
+
+            </div>
+
+            <div class = "section">
+
+                <div class = "section-title">
+                    Projects and Assignments
+                </div>
+                   
+                    <div class="section-proj-title">
+                        CS360: Data Visualization Assignments
+                    </div>
+                   
+                    <div class="section-proj-description">
+                       
+                        Assignments accesible through my Vizhub profile.
 
 
-</ul>
+                    </div>
+    
+                    
+    
+                    <div class="section-proj-title">
+                        CS360: Data Visualization Final Project
+                    </div>
+                    <div class="section-proj-description">
+                        
+                        
+                        Final Project, "Save the Bees", is a data visualization project 
+                        that utilizes d3.js, JavaScript, <br> HTML, and CSS to communicate bee 
+                        colony loss throughout the United States. 
+                        
+                        
+                    </div>
+    
+    
+    
+            </div>
+    
 
-<h3> School Work</h3>
-<ul>
-    <li><a href= "cs360assign.html"> CS360 Assignments </a></li>
-    <li><a href= "https://amrubal.github.io/cs360proj/"> CS360 Project </a></li>
-</ul>
+        </div>
+
+       
 
 
-</body>
+
+
+        <!-- script for drop down button -->
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction(num) {
+        document.getElementById("myDropdown" + num).classList.toggle("show");
+    }
+
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+    </body>
+
 
 
 
