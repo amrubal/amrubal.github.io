@@ -54,7 +54,7 @@ a {
 
 .section-body {
     font-size: 18px;
-    padding: 0 15px 10px 25px;
+    padding: 0 10px 10px 15px;
 }
 .section-proj-description {
     width: calc(100% - 4px);
@@ -67,18 +67,6 @@ a {
     margin: 0 0 0 10px;
 }
 
-button:link, button:visited {
-    background-color: #5F8575;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  button:hover, button:active {
-    background-color: #5F8575;
-  }
 
 
 
